@@ -1,4 +1,4 @@
-FROM tiangolo/uvicorn-gunicorn:python3.8
+FROM OleRoel/uvicorn-gunicorn-docker
 
 # Install Poetry
 RUN curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | POETRY_HOME=/opt/poetry python && \
